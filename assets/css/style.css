@@ -1,0 +1,148 @@
+*{ 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+body {
+    background-color: rgb(151, 74, 223);
+}
+
+header {
+
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 20%;
+}
+
+.padrepresentacion {
+
+    display: flex;
+    border: 1px solid black;
+    height: 80%;
+
+}
+
+.textocontainer {
+
+    border: 1px solid black;
+    flex-basis: 60%;
+
+}
+
+.fotocontainer { 
+
+    border: 1px solid black;
+    flex-basis: 40%;
+    padding: 4%;
+    
+
+}
+
+
+
+.boton1 { width: 100px;
+    margin: 20%;
+
+}
+
+.boton2 { width: 100px;
+   
+
+}
+
+.titulo {
+
+    margin: 5%;
+
+}
+
+
+
+
+.main {
+
+ 
+    border: 1px solid black;
+}
+
+
+.titulo1 { 
+    text-align: center;
+}
+
+
+
+.estudios {
+    display:flex;
+    border: 1px solid black;
+    height: 50%;
+    text-align: center;
+}
+
+
+
+.proyectos {
+    border: 1px solid black;
+    height: 50%;
+    
+
+}
+
+.experiencia {
+
+    display: flex;
+}
+
+.pasados {
+
+    text-align: center;
+}
+
+.universidad {
+
+    width: 33%;
+}
+
+.ingles {
+
+    width: 33%;
+}
+
+.certificados {
+
+    width: 33%;
+}
+
+.entrevistas {
+
+    width: 33%;
+    text-align: center;
+}
+
+.reporteo {
+
+    width: 33%;
+    text-align: center;
+}
+
+.redaccion {
+
+    width: 33%;
+    text-align: center;
+}
+
+footer { 
+    margin: 2%;
+}
